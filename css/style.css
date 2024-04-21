@@ -608,13 +608,16 @@ button:focus{
 	padding: 70px 0px;
 }
 
-.gallery-box ul{}
+.gallery-box ul{
+	display: flex;
+	flex-wrap: wrap;
+}
 .gallery-box ul li{
 	position: relative;
 	width: 25%;
 	margin: 0;
 	padding: 0;
-	float: left;
+	/* float: left; */
 	border: none;
 	overflow: hidden;
 }
@@ -777,45 +780,3 @@ select.form-control:not([size]):not([multiple]){
 .footer-box .footer-company-name a:hover{
 	color: #63c7bd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
