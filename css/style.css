@@ -570,6 +570,7 @@ button:focus{
     margin-top: 30px;
 	border: 10px solid #fff;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	min-height: 207px;
 }
 .family-img{
 	position: relative;
@@ -588,6 +589,10 @@ button:focus{
     background-color: #535c68;
 }
 .family-info{
+	padding: 25px 33px;
+	background-color: #f1f1f1;
+}
+.family-info .hajmola{
 	padding: 25px 30px;
 	background-color: #f1f1f1;
 }
@@ -617,6 +622,7 @@ button:focus{
 	width: 25%;
 	margin: 0;
 	padding: 0;
+	/* float: left; */
 	border: none;
 	overflow: hidden;
 }
@@ -779,3 +785,4 @@ select.form-control:not([size]):not([multiple]){
 .footer-box .footer-company-name a:hover{
 	color: #63c7bd;
 }
+
