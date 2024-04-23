@@ -600,6 +600,10 @@ button:focus{
 	font-family: 'Marck Script', cursive;
 	font-size: 24px;
 }
+.family-info .hajmola{
+	padding: 25px 30px;
+	background-color: #f1f1f1;
+}
 .family-info p{
 	margin: 0px;
 	font-size: 18px;
